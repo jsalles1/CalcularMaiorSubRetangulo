@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class SubRetangulo {
+public class PDSubRetangulo {
 
     static int bestTop = -1, bestEsq = -1, bestBaixo = -1, bestDir = -1;
     public static final String RED = "\u001B[31m";
