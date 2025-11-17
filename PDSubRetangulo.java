@@ -68,13 +68,13 @@ public class PDSubRetangulo {
             }
         }
 
-        printMatrix(original);
-
-        System.out.println("Soma do subretangulo maximo: " + maxSum);
-
         long end = System.nanoTime(); // fim da medição
         double elapsedSeconds = (end - start) / 1_000_000_000.0;
         System.out.println("Tempo de execução: " + elapsedSeconds + " segundos");
+        
+        printMatrix(original);
+
+        System.out.println("Soma do subretangulo maximo: " + maxSum);
 
         return maxSum;
     }
